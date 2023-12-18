@@ -5,7 +5,7 @@ from main import *
 tab = []
 
 # test 1
-game(5,1000,tab)
+game(5,1,tab)
 print(tab)
 
 '''
