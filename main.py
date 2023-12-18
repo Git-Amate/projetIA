@@ -54,9 +54,9 @@ def agentIntelligent(randomOrAlwaysdefendingOrAlwaysAttakingAgent,nbrAffrontemen
         agent["q_values"] = update_q_values(agent["q_values"], action, reward_agentIntelligent)
         agent["total_reward"] += reward_agentIntelligent
         reward_apponent_total += reward_opponent
-        print("Action choisie:", action)
-        print(action_opponent)
-        print(reward_agentIntelligent)
+        #print("Action choisie:", action)
+        #print(action_opponent)
+        #print(reward_agentIntelligent)
 
     # Affichage des résultats
     #print("agent entrainé")
@@ -99,9 +99,9 @@ def agentIntelligentV1(copyorRestfulAgent,nbrAffrontement):
         agent["q_values"] = update_q_values(agent["q_values"], action, reward_agentIntelligent)
         agent["total_reward"] += reward_agentIntelligent
         reward_apponent_total += reward_opponent
-        print("Action choisie:", action)
-        print("action Adversaire", action_opponent)
-        print(reward_agentIntelligent)
+        #print("Action choisie:", action)
+        #print("action Adversaire", action_opponent)
+        #print(reward_agentIntelligent)
         #print(agent["q_values"])
         cpt += 1
         tab.append((action_opponent, action))
